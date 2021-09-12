@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(Rahul.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    position: absolute;
+    top: 48%;
+    left: 30%;
+}
+.button{
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 60;
+    font-size: 20px;
+    color: deeppink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    border: 3px solid  deeppink;
+     text-transform: uppercase;
+     letter-spacing: 13px;
+     cursor:pointer;
+    transition: 1.5s;
+}
+.button:hover{
+    box-shadow: 0 5px 50px deeppink, 0 5px 50px deeppink inset,0 5px 50px deeppink inset,0 5px 50px deeppink;
+    text-shadow: 0 0 5px deeppink, 0 0 5px deeppink;
+}
